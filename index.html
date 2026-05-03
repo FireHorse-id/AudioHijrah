@@ -455,7 +455,7 @@
         document.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', e => {
                 const href = link.getAttribute('href');
-                if (href && (href.endsWith('.html') || href.startsWith('/'))) {
+                if (href && (href.endsWith('https://play.google.com/store/apps/details?id=fire.horse.id.Audio.Hijrah') || href.startsWith('/'))) {
                     if (!link.getAttribute('target')) {
                         e.preventDefault();
                         document.body.classList.add('fade-out');
