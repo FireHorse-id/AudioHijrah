@@ -434,7 +434,7 @@
             width: 96,
             height: 96,
             type: "svg",
-            data: "https://play.google.com/store/apps/details?id=com.audiohijrah",
+            data: "https://play.google.com/store/apps/details?id=fire.horse.id.Audio.Hijrah",
             image: "https://raw.githubusercontent.com/alom2345mm-arch/img2026/main/dada_result.png",
             dotsOptions: {
                 color: "#22d3ee",
@@ -455,7 +455,7 @@
         document.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', e => {
                 const href = link.getAttribute('href');
-                if (href && (href.endsWith('https://play.google.com/store/apps/details?id=fire.horse.id.Audio.Hijrah') || href.startsWith('/'))) {
+                if (href && (href.endsWith('.html') || href.startsWith('/'))) {
                     if (!link.getAttribute('target')) {
                         e.preventDefault();
                         document.body.classList.add('fade-out');
