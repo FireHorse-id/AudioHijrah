@@ -1,7 +1,1 @@
-[{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://firehorse-id.github.io/AudioHijrah"
-  }
-}]
+Enter a domain to generate a JSON file
