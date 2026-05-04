@@ -3,6 +3,6 @@ Enter a domain to generate a JSON file
   "relation": ["delegate_permission/common.get_login_creds"],
   "target": {
     "namespace": "web",
-    "site": "https://domainanda.com"
+    "site": "https://firehorse-id.github.io/AudioHijrah/"
   }
 }]
